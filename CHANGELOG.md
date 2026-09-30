@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.6.0] - 2026-09-30
+
+### Added
+- **Automated GitHub Pages CI/CD Pipeline** (`.github/workflows/deploy.yml`):
+  - Automatically triggers on every push to the `main` branch.
+  - Automatically checks out code, installs dependencies with `npm ci`, runs the 20-test Vitest verification suite, compiles production assets via `npm run build`, and publishes directly to GitHub Pages.
+- **Relative Base Asset Routing**:
+  - Updated `vite.config.ts` to output relative asset paths (`base: './'`), allowing seamless deployment across GitHub Pages subpaths (`/diablo-classic-arpg/`), Vercel, Netlify, and custom domains.
+- Added live playable game link and CI/CD status badge to `README.md`.
+
+---
+
 ## [1.5.0] - 2026-09-30
 
 ### Added

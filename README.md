@@ -4,9 +4,12 @@
 [![Vite](https://img.shields.io/badge/bundler-Vite%206-646CFF.svg)](https://vitejs.dev/)
 [![HTML5 Canvas](https://img.shields.io/badge/engine-Custom%20Canvas%202.5D-E34F26.svg)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 [![Vitest](https://img.shields.io/badge/tests-Vitest%20(20%2F20%20passing)-green.svg)](https://vitest.dev/)
+[![Deploy to GitHub Pages](https://github.com/arron21/diablo-classic-arpg/actions/workflows/deploy.yml/badge.svg)](https://github.com/arron21/diablo-classic-arpg/actions/workflows/deploy.yml)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
 A classic Action Role-Playing Game inspired by the original **Diablo (1996)**, running natively in the browser via TypeScript, Vite, and HTML5 Canvas. Built with a custom 2.5D isometric diamond engine and procedural Web Audio synthesis—requiring **zero external image or audio asset dependencies**.
+
+👉 **[Play Live in Browser](https://arron21.github.io/diablo-classic-arpg/)** 👈
 
 ---
 
