@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Logs and environment
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+.env.local
+.env.*.local
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary / agent artifacts
+.system_generated/

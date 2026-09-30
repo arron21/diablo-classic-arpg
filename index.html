@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diablo: The Dark Awakening - Classic ARPG</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="header-bar">
+      <div class="header-left">
+        <span class="game-title">DIABLO: THE DARK AWAKENING</span>
+      </div>
+      <div class="header-center">
+        <span class="controls-hint">
+          [Left Click] Move / Attack / Loot &bull;
+          [I] Inventory &bull;
+          [C] Character &bull;
+          [1-4] Belt Potions &bull;
+          [M] Audio &bull;
+          [F] Fullscreen
+        </span>
+      </div>
+      <div class="header-right">
+        <button id="fullscreen-btn" title="Toggle Fullscreen">[F] Fullscreen</button>
+      </div>
+    </div>
+    <canvas id="game-canvas"></canvas>
+  </div>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
